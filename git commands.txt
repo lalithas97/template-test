@@ -1,0 +1,17 @@
+CASE1: For new repository
+    git init
+    git remote add origin (repository link : https://github.com/lalithas97/template-test.git)
+    git add .
+    git commit -m "message"
+    git push origin master
+
+    GO to github and things are uploaded there
+
+CASE 2: Existing repository
+    git add .
+    git commit -m "message"
+    git push origin master
+
+Go to settings -> Github Pages -> source to master -> refresh -> link to share.
+
+to go live page might take 10mins so wait and refresh to see the output
