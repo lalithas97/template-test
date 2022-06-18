@@ -1,0 +1,12 @@
+
+html{
+    box-sizing:border-box;
+    /* Usually when we give padding more than the width/height of the viewport then it allows scroll which leads to horizontal/vertical scroll. Whereas this border-box prevents this from happening. */
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    /* vh- viewport height. Always stretch the background at least the full height of the screen,even if the content hasn't that much height. */
+    /* background: dodgerblue; used to check above part */
+}
